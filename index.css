@@ -1,0 +1,85 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("assets/img/back2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	font-family:times new roman;
+}
+nav ul{
+	padding-left: 30px;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align: center ;
+	margin: auto;
+}
+nav ul li{
+		display: inline;
+		text-decoration: none;
+		color: white;
+		font-size: 1.5em;
+		text-align:center;	
+		font-family:times new roman;
+		}
+.pattern {
+	text-align: center;
+	padding-top:200px;
+  }
+.head{
+	color: white;
+	font-family:times new roman;
+}
+.img{
+	padding: 2px;
+}
+.welcome{
+	text-align:center;
+	padding-top:0px;
+	
+}
+.welcome h1 {
+	text-align: center;
+	margin:auto;
+	padding:20px;
+	
+}
+.welcome h1 span {
+	color: #00fecb;
+	
+}
+.welcome a {
+	border: 2px solid #fff;
+	padding:10px;
+	text-decoration: none;
+	font-size: 14px;
+	margin-top: 0px;
+	display: inline-block;
+	color: #fff;
+}
+.welcome a:hover {
+	background: black;
+	color: #333;
+}
+.gallery{
+	text-align:center;
+	padding:4px;
+}
+.parag,span{
+	padding:0px 200px;
+	padding-bottom: 200px;
+	padding-top: 180px;
+	margin: auto;
+
+}
+
+
+
+
+/*RESPONSIVE*/
+@media only screen (max-width:1440px) {
+	nav ul li{
+		width:100%;
+	}
+	nav {
+		display: none;
+	}
+}
